@@ -37,6 +37,7 @@ jobs:
 
       - name: Run Automated Test Suite
         env:
+          PYTHONPATH: .
           ENVIRONMENT: test
           STORAGE_BACKEND: memory
           REQUIRE_API_KEY: "false"
