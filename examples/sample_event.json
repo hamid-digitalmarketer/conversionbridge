@@ -1,0 +1,32 @@
+{
+  "event_name": "Lead",
+  "event_id": "lead_sample_12345",
+  "event_time": 1729304859,
+  "event_source_url": "https://example.com/contact-us",
+  "action_source": "website",
+  "consent": {
+    "analytics": true,
+    "advertising": true,
+    "granted_at": 1729304850
+  },
+  "user_data": {
+    "email": "consulting.lead@example.com",
+    "phone": "+15551234567",
+    "first_name": "Sarah",
+    "last_name": "Connor",
+    "country": "us",
+    "client_id": "123456789.1729304859",
+    "fbp": "fb.1.1729304859.1029384756"
+  },
+  "custom_data": {
+    "value": 150.0,
+    "currency": "USD",
+    "content_name": "Growth Audit Request",
+    "content_category": "Consulting"
+  },
+  "destinations": [
+    "meta",
+    "ga4"
+  ],
+  "test_mode": true
+}

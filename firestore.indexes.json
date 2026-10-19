@@ -1,0 +1,15 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "conversionbridge_events",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "expires_at",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

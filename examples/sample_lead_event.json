@@ -1,0 +1,42 @@
+{
+  "event_name": "Lead",
+  "event_id": "lead_b2b_8829104",
+  "event_time": 1729305000,
+  "event_source_url": "https://example.com/request-demo",
+  "action_source": "website",
+  "consent": {
+    "analytics": true,
+    "advertising": true,
+    "consent_string": "CP123456789"
+  },
+  "user_data": {
+    "email": "director@enterprise-client.com",
+    "phone": "+15554321098",
+    "first_name": "Michael",
+    "last_name": "Chang",
+    "city": "Chicago",
+    "state": "il",
+    "zip_code": "60601",
+    "country": "us",
+    "external_id": "crm_lead_9921",
+    "client_id": "592019482.1729305000",
+    "fbp": "fb.1.1729305000.5544332211",
+    "fbc": "fb.1.1729305000.IwAR1abcXYZ"
+  },
+  "custom_data": {
+    "value": 500.0,
+    "currency": "USD",
+    "content_name": "Enterprise Marketing Automation Demo",
+    "content_category": "B2B SaaS",
+    "status": "scheduled",
+    "custom_properties": {
+      "company_size": "50-200",
+      "crm_pipeline": "inbound_sales"
+    }
+  },
+  "destinations": [
+    "meta",
+    "ga4"
+  ],
+  "test_mode": false
+}

@@ -1,0 +1,61 @@
+{
+  "event_name": "Purchase",
+  "event_id": "order_tx_90192847",
+  "event_time": 1729305100,
+  "event_source_url": "https://example.com/checkout/order-received/90192847",
+  "action_source": "website",
+  "consent": {
+    "analytics": true,
+    "advertising": true
+  },
+  "user_data": {
+    "email": "customer@shopper.org",
+    "phone": "+15557778899",
+    "first_name": "Emma",
+    "last_name": "Watson",
+    "city": "New York",
+    "state": "ny",
+    "zip_code": "10001",
+    "country": "us",
+    "external_id": "cust_88291",
+    "client_id": "339102948.1729305100",
+    "fbp": "fb.1.1729305100.9988776655",
+    "fbc": "fb.1.1729305100.IwAR3defUVW"
+  },
+  "custom_data": {
+    "value": 349.99,
+    "currency": "USD",
+    "order_id": "90192847",
+    "num_items": 3,
+    "content_ids": ["PROD-100", "PROD-200", "PROD-300"],
+    "contents": [
+      {
+        "id": "PROD-100",
+        "name": "Performance Marketing Playbook",
+        "quantity": 1,
+        "item_price": 149.99
+      },
+      {
+        "id": "PROD-200",
+        "name": "Server-Side Tracking Masterclass",
+        "quantity": 1,
+        "item_price": 150.00
+      },
+      {
+        "id": "PROD-300",
+        "name": "GTM CAPI Template",
+        "quantity": 1,
+        "item_price": 50.00
+      }
+    ],
+    "custom_properties": {
+      "coupon": "FALLGROWTH20",
+      "shipping_tier": "express"
+    }
+  },
+  "destinations": [
+    "meta",
+    "ga4"
+  ],
+  "test_mode": false
+}
